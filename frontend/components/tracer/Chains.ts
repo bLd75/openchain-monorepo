@@ -90,6 +90,17 @@ export const SupportedChains = [
         rpcUrl: 'https://rpcapi.fantom.network',
         blockexplorerUrl: 'https://ftmscan.com',
     },
+    {
+        chainId: 592,
+        id: 'astar',
+        displayName: 'Astar',
+        nativeTokenAddress: '0x6eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+        nativeSymbol: 'ASTR',
+        coingeckoId: 'coingecko:astar',
+        defillamaPrefix: 'astar',
+        rpcUrl: 'https://tracing.astar.network',
+        blockexplorerUrl: 'https://blockscout.com/astar',
+    },
 ];
 
 const conduitAPIs: { [key: string]: string } = {
